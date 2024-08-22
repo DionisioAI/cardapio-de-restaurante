@@ -1,3 +1,37 @@
-.logo-principal {
-    float: left;
+body {
+    background-color: #fdda27;
 }
+.Título {
+    display: flex;
+    align-items: center;
+}
+.Título h1 {
+    margin-left: 10px;
+    color: black;
+    text-shadow: 1px 1px 5px #aa921b;
+}
+.Título img {
+    max-width: 100px; /* Set a max width for the image, adjust as needed */
+    height: auto;
+}
+
+/* Color Theme Swatches in Hex */
+.Summer-1-hex { color: #E8920C; }
+.Summer-2-hex { color: #1ABB27; }
+.Summer-3-hex { color: #B8FA00; }
+.Summer-4-hex { color: #FF0000; }
+.Summer-5-hex { color: #FFD300; }
+
+/* Color Theme Swatches in RGBA */
+.Summer-1-rgba { color: rgba(232, 145, 12, 1); }
+.Summer-2-rgba { color: rgba(26, 186, 38, 1); }
+.Summer-3-rgba { color: rgba(184, 249, 0, 1); }
+.Summer-4-rgba { color: rgba(255, 0, 0, 1); }
+.Summer-5-rgba { color: rgba(255, 211, 0, 1); }
+
+/* Color Theme Swatches in HSLA */
+.Summer-1-hsla { color: hsla(36, 90, 47, 1); }
+.Summer-2-hsla { color: hsla(124, 75, 41, 1); }
+.Summer-3-hsla { color: hsla(75, 100, 49, 1); }
+.Summer-4-hsla { color: hsla(0, 100, 50, 1); }
+.Summer-5-hsla { color: hsla(49, 100, 50, 1); }
